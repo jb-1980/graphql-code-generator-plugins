@@ -45,7 +45,7 @@ export const handleGraphQLRootObjectTypeField: GraphQLTypeHandler<
         ? resolverGeneration.subscription
         : 'Unknown';
     logger.debug(
-      `Skipped resolver generation: ${normalizedResolverName.withModule}. Pattern: ${resolverGenerationPattern}.`
+      `Skipped ${belongsToRootObject} resolver generation: "${normalizedResolverName.withModule}". Pattern: "${resolverGenerationPattern}".`
     );
     return;
   }

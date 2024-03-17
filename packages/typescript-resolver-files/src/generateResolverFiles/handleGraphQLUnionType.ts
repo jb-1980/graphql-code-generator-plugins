@@ -18,7 +18,7 @@ export const handleGraphQLUnionType: GraphQLTypeHandler = (
     })
   ) {
     logger.debug(
-      `Skipped resolver generation: ${normalizedResolverName.withModule}. Pattern: ${resolverGeneration.union}.`
+      `Skipped Union resolver generation: "${normalizedResolverName.withModule}". Pattern: "${resolverGeneration.union}".`
     );
     return;
   }
