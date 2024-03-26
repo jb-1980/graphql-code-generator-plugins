@@ -1,5 +1,15 @@
 # @eddeee888/gcg-typescript-resolver-files
 
+## 0.7.4
+
+### Patch Changes
+
+- 067bd7e: Add params to generated resolvers
+- 47c8fa6: Update package.json with missing deps
+- b226761: Implement recursively pick interface extensions
+- Updated dependencies [47c8fa6]
+  - @eddeee888/gcg-server-config@0.1.1
+
 ## 0.7.3
 
 ### Patch Changes
